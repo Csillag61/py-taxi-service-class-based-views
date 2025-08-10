@@ -29,7 +29,6 @@ class CarListView(ListView):
     paginate_by = 5
 
 
-
 class CarDetailView(DetailView):
     model = Car
 
